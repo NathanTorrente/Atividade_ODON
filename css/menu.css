@@ -1,0 +1,40 @@
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.slidebar{
+     background-color: #282A35;
+     display: flex;
+     padding: 10px;
+}
+img{
+    width: 200;
+    height: 200px;
+}
+@media (min-width: 640px) { 
+    .page{
+        flex-direction: row;
+    }
+    .slidebar{
+        height: 100vh;
+        width: 300px;
+        position: sticky;
+        top: 0;
+        display: block;
+        background-color: #575454;
+    }
+}   
+a{
+    text-decoration: none;
+    color:white;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:white;
+}
+.conteudo{
+    margin-left: 60px;
+}
