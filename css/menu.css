@@ -1,3 +1,6 @@
+body{
+    background-image: linear-gradient( to top, rgb(168, 168, 168), 40%, rgb(255, 255, 255), rgb(255, 255, 255));
+}
 .page{
     position: relative;
     display: flex;
@@ -36,5 +39,15 @@ a:hover{
     color:white;
 }
 .conteudo{
-    margin-left: 60px;
+    margin-left: 90px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+.LogoFundo{
+    width: 760px;
+    height: 450px;
+}
+h1{
+margin-left: 300px;
 }
