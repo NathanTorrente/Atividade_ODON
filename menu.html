@@ -27,10 +27,10 @@
                      <hr>
                     <ul class="list-unstyled ps-0">
                       <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0" data-bs-toggle="collapse" data-bs-target="#funcionario-collapse" aria-expanded="true">
                           Funcionário
                         </button>
-                        <div class="collapse show" id="home-collapse" bis_skin_checked="1" style="">
+                        <div class="collapse" id="funcionario-collapse" bis_skin_checked="1" style="">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cadastrar Funcionário</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Consultar Funcionário</a></li>
@@ -39,12 +39,13 @@
                         </div>
                       </li>
                       <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                        <hr> <!--linha preta-->
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#financeiro-collapse" aria-expanded="false">
                           Financeiro
                         </button>
-                        <div class="collapse" id="dashboard-collapse" bis_skin_checked="1">
+                        <div class="collapse" id="financeiro-collapse" bis_skin_checked="1">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Emitir Relatório Caixa</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Controlar Caixa</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Realizar Venda</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Receber Venda</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a></li>
@@ -52,10 +53,11 @@
                         </div>
                       </li>
                       <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                        <hr> <!--linha preta-->
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#agenda-collapse" aria-expanded="false">
                           Agenda
                         </button>
-                        <div class="collapse" id="orders-collapse" bis_skin_checked="1">
+                        <div class="collapse" id="agenda-collapse" bis_skin_checked="1">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
@@ -64,22 +66,90 @@
                           </ul>
                         </div>
                       </li>
-                      <li class="border-top my-3"></li>
+                      <hr> <!--linha preta-->
                       <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#paciente-collapse" aria-expanded="false">
                           Pacientes
                         </button>
-                        <div class="collapse" id="account-collapse" bis_skin_checked="1">
+                        <div class="collapse" id="paciente-collapse" bis_skin_checked="1">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
                             <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
                           </ul>
+                          
                         </div>
+                        <hr> <!--linha preta-->
+                       
+                      </li> 
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#consultas-collapse" aria-expanded="false">
+                          Consultas
+                        </button>
+                        <div class="collapse" id="consultas-collapse" bis_skin_checked="1">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                          </ul>
+                          
+                        </div>
+                        <hr> <!--linha preta-->
                       </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#produto-collapse" aria-expanded="false">
+                          Produto
+                        </button>
+                        <div class="collapse" id="produto-collapse" bis_skin_checked="1">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                          </ul>
+                          
+                        </div>
+                        <hr> <!--linha preta-->
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#serviço-collapse" aria-expanded="false">
+                          Serviço
+                        </button>
+                        <div class="collapse" id="serviço-collapse" bis_skin_checked="1">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                          </ul>
+                          
+                        </div>
+                        <hr> <!--linha preta-->
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orçamento-collapse" aria-expanded="false">
+                          Orçamento
+                        </button>
+                        <div class="collapse" id="orçamento-collapse" bis_skin_checked="1">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                          </ul>
+                          
+                        </div>
+                        <hr> <!--linha preta-->
+                      </li>
+
+                        <div class="navbar navbar-expand-md">
+                         
+                      </div>
                     </ul>
                   </div>
+                  
 
 
                

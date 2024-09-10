@@ -10,6 +10,7 @@ body{
      background-color: #282A35;
      display: flex;
      padding: 10px;
+     text-align: center;
 }
 img{
     width: 200;
