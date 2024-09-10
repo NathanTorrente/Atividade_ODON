@@ -20,55 +20,78 @@
                 </a>
             </div>
             <div class="navbar navbar-expand-md">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meumenu"
-                    aria-controls="meumenu" aria-expanded="false" aria-label="Menu Exemplo">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="meumenu">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link align-middle px-0" href="Funcionário.html">Funcinário
-                            </a>
-                        </li>
-                          <li>
-                             <a class="nav-link align-middle px-0" href="#">Financeiro
-                             </a>
-                          </li>
-                        <li>
-                            <a class="nav-link align-middle px-0" href="#">Agenda
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link align-middle px-0" href="#">Pacientes
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link align-middle px-0" href="#">Consultas
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link align-middle px-0" href="#">Produto
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link align-middle px-0" href="#">Serviço
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link align-middle px-0" href="#">Orçamento
-                                <ul class="nav flex-column"></ul>
-                            </a>
-                        </li>
+
+             
+                <div class="flex-shrink-0 p-3" style="width: 280px;" bis_skin_checked="1">
+                    
+                     <hr>
+                    <ul class="list-unstyled ps-0">
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                          Funcionário
+                        </button>
+                        <div class="collapse show" id="home-collapse" bis_skin_checked="1" style="">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cadastrar Funcionário</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Consultar Funcionário</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Emitir Relatório</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                          Financeiro
+                        </button>
+                        <div class="collapse" id="dashboard-collapse" bis_skin_checked="1">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Emitir Relatório Caixa</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Realizar Venda</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Receber Venda</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                          Agenda
+                        </button>
+                        <div class="collapse" id="orders-collapse" bis_skin_checked="1">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="border-top my-3"></li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                          Pacientes
+                        </button>
+                        <div class="collapse" id="account-collapse" bis_skin_checked="1">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                          </ul>
+                        </div>
+                      </li>
                     </ul>
-                </div>
+                  </div>
+
+
+               
             </div>
         </nav>
         <main> <!--Tudo que esta dentro do main é o conteudo principal-->
             <div class="conteudo">   
                     <img src="img/dentesss.png" class="LogoFundo">          
-                <h1>dentaltech@odon.com</h1>      
+                <h1>dentaltec@odon.com</h1>      
             </div>
         </main>
+       
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
