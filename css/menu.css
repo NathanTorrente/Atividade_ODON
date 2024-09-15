@@ -1,3 +1,5 @@
+
+
 body{
     background-image: linear-gradient( to top, rgb(168, 168, 168), 40%, rgb(255, 255, 255), rgb(255, 255, 255));
 }
@@ -5,12 +7,22 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
+    
 }
 .slidebar{
      background-color: #282A35;
      display: flex;
      padding: 10px;
-     text-align: center;
+    overflow-x: auto; /* Adiciona a barra de rolagem vertical quando necessário */
+    max-height: 100vh; /* Define a altura máxima da barra lateral para a altura da tela */
+    overflow-x: hidden; /*Remove barra horizontal*/
+
+
+
+
+}
+.nav-link{
+    margin-top: -20px;
 }
 img{
     height: 100px;
@@ -23,7 +35,7 @@ img{
     }
     .slidebar{
         min-height: 100vh; /* min-height é a minima altura para ele expandir para não bugar a cor ao abrir opções*/
-        width: 300px;
+        width: 280px;
         position: sticky;
         top: 0;
         display: block;
@@ -64,4 +76,32 @@ font-size: 15px;
 color: rgb(255, 255, 255);
 margin-right: 180px;
 opacity: 70%;
+}
+hr{
+    width: 100%;
+}
+.money{
+    width: 30px;
+    height: 30px;
+     margin: 5px;
+}
+.boxSeta{
+    width: 50px;
+    height: 50px;
+     margin: 5px;
+}
+.orçamento{
+    width: 40px;
+    height: 40px;
+     margin: 5px;
+}
+.pacientes{
+     width: 30px;
+     height: 30px;
+     margin: 5px;
+}
+.consultas{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
