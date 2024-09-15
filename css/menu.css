@@ -13,20 +13,21 @@ body{
      text-align: center;
 }
 img{
-    width: 200;
-    height: 200px;
+    height: 100px;
+    width: 160px;
+   
 }
 @media (min-width: 640px) { 
     .page{
         flex-direction: row;
     }
     .slidebar{
-        height: 100vh;
+        min-height: 100vh; /* min-height é a minima altura para ele expandir para não bugar a cor ao abrir opções*/
         width: 300px;
         position: sticky;
         top: 0;
         display: block;
-        background-color: #575454;
+        background-color: hsl(0, 0%, 51%);
     }
 }   
 a{
@@ -41,7 +42,7 @@ a:hover{
 }
 .conteudo{
     margin-left: 90px;
-    margin-top: 100px;
+    margin-top: 60px;
     width: 300px;
     height: 300px;
 }
@@ -50,5 +51,5 @@ a:hover{
     height: 450px;
 }
 h1{
-margin-left: 300px;
+margin-left: 200px;
 }
