@@ -9,6 +9,10 @@ body{
     flex-direction: column;
     
 }
+.page2{
+    position: relative;
+    display: flex;
+}
 .slidebar{
      background-color: #282A35;
      display: flex;
@@ -16,10 +20,7 @@ body{
     overflow-x: auto; /* Adiciona a barra de rolagem vertical quando necessário */
     max-height: 100vh; /* Define a altura máxima da barra lateral para a altura da tela */
     overflow-x: hidden; /*Remove barra horizontal*/
-
-
-
-
+    
 }
 .nav-link{
     margin-top: -20px;
@@ -32,6 +33,7 @@ img{
 @media (min-width: 640px) { 
     .page{
         flex-direction: row;
+        
     }
     .slidebar{
         min-height: 100vh; /* min-height é a minima altura para ele expandir para não bugar a cor ao abrir opções*/
@@ -40,11 +42,12 @@ img{
         top: 0;
         display: block;
         background-color: hsl(0, 0%, 51%);
+        
     }
 }   
 a{
     text-decoration: none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 a:visited{
     color:white;
@@ -58,17 +61,24 @@ a:hover{
     width: 300px;
     height: 300px;
 }
+.conteudo2{
+    margin-left: 90px;
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+}
 .LogoFundo{
     width: 760px;
     height: 450px;
 }
 h1{
 margin-left: 200px;
+
 }
 label{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    color:white;
+    color:rgb(59, 58, 58);
     padding-right: 200px;
 }
 P{
@@ -104,4 +114,11 @@ hr{
     width: 30px;
     height: 30px;
     margin: 5px;
+}
+.corfundoP{
+    background-color: pink;
+}
+.container{
+    align-items: center;
+    color:blueviolet;
 }

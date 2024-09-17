@@ -1,0 +1,39 @@
+header{
+    background-color: #0da26b;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.topo{
+    display: flex;
+    align-items: center;
+}
+.logoDentalTec{
+    width: 57px;
+    height: 66px;
+}
+.opcoes{
+    margin-left: auto;
+}
+.itensMenu{
+    list-style: none;
+}
+.opcoes ul li{
+    display: inline;
+    font-size: 1.3em; /*unidade de medida, formata o tamanho da fonte*/
+    padding: 15px;
+}
+.opcoes ul li a{
+    text-decoration: none; /* apaga a linha que fica embaixo dos links*/
+    color: white;
+}
+#odontograma{
+    width: 550px;
+    height: 300px;
+}
+table{
+    width: 578px;
+    height: 150px;
+    margin-left: 650px;
+    margin-top: 0px;
+}
