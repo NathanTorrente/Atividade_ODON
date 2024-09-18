@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     
 }
+
 .page2{
     position: relative;
     display: flex;
@@ -157,7 +158,7 @@ hr{
     margin: 5px;
 }
 .corfundoP{
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
 }
 .container{
   

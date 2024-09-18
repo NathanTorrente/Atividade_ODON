@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="pt-BR">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConsultarFuncionário</title>
-    <link rel="stylesheet" href="css/menu.css">
-    <link href="css/estilo.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>ConsultarFuncionario</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body class="cor">
 
-    <div class="page">
+</head>
+<body>
+    
+    <div class="page2">
      
         <nav class="slidebar">
             <div class="container">
-                <a href="menu.html" class="">
+                <a href="" class="">
                     <img src="img/dentesss2.png" class="Logo">
                     <a class="bi bi-box-arrow-right" href="menu.html" style="color: rgb(51, 49, 49); font-size: 35px; font-weight: bolder; padding-left: 38px;" ></a>
+                </a>
             </div>
             <div class="navbar navbar-expand-md">    
                 <div class="flex-shrink-0 p-3" style="width: 280px;" bis_skin_checked="1">
@@ -32,9 +35,9 @@
                         <div class="collapse" id="funcionario-collapse" bis_skin_checked="1" style="">
                           <i class="bi bi-chevron-up ms-auto"></i>
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="CadastrarFuncionario.html" class="nav-link align-middle px-0">Cadastrar Funcionário</a></li>
-                            <li><a href="ConsultarFuncionario.html" class="nav-link align-middle px-0">Consultar Funcionário</a></li>
-                            <li><a href="#" class="nav-link align-middle px-0">Emitir Relatório</a></li>
+                            <li><a href="CadastrarFuncionario.html" class="nav-link">Cadastrar Funcionário</a></li>
+                            <li><a href="ConsultarFuncionario.html" class="nav-link">Consultar Funcionário</a></li>
+                            <li><a href="EmitirRelatórioFunci.html" class="nav-link">Emitir Relatório</a></li>
                           </ul>
                         </div>
                       </li>
@@ -160,197 +163,202 @@
                   </div> 
             </div>
         </nav>
-<main>
-    <div class="cor container">
-        <h1>CONSULTAR FUNCIONÁRIO</h1>
-        <hr>
-        <br>
-        <form>
-            <div class="row">
-                <div class="form-group col-2">
-                    <input type="radio">
-                    <label>ID</label>  
-                </div>
-                <div class="form-group col-2">
-                    <input type="radio">
-                    <label>NOME</label>  
-                </div>
-                <div class="form-group col-2">
-                    <input type="radio">
-                    <label>CPF</label>  
-                </div>
-                <div class="form-group col-2">
-                    <input type="radio">
-                    <label>RG</label>  
-                </div>
-                <div class="form-group col-2">
-                    <input type="radio">
-                    <label>CARGO</label>  
-                </div>
-                <div class="form-group col-2">
-                    <input type="radio">
-                    <label>CTPS</label>  
-                </div>
-            </div>
+        <main> <!--Tudo que esta dentro do main é o conteudo principal-->
+          <div class="cor container">
+            <h1>CONSULTAR FUNCIONÁRIO</h1>
+            <hr>
             <br>
-            <div class="row justify-content-center">
-                <div class="form-group col-6">
-                    <input type="text" class="form-control">  
-                </div>    
-                <div class="form-group col-1">
-                    <button type="button" class="btn btn-secondary"><i class="bi bi-search"></i></button>  
-                </div>    
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group col-2">
-                    <label>ID:</label>
-                    <input type="text" class="form-control">  
+            <form>
+                <div class="row">
+                    <div class="form-group col-2">
+                        <input type="radio">
+                        <label>ID</label>  
+                    </div>
+                    <div class="form-group col-2">
+                        <input type="radio">
+                        <label>NOME</label>  
+                    </div>
+                    <div class="form-group col-2">
+                        <input type="radio">
+                        <label>CPF</label>  
+                    </div>
+                    <div class="form-group col-2">
+                        <input type="radio">
+                        <label>RG</label>  
+                    </div>
+                    <div class="form-group col-2">
+                        <input type="radio">
+                        <label>CARGO</label>  
+                    </div>
+                    <div class="form-group col-2">
+                        <input type="radio">
+                        <label>CTPS</label>  
+                    </div>
                 </div>
-                <div class="form-group col-4">
-                    <label>NOME:</label>
-                    <input type="text" class="form-control">  
+                <br>
+                <div class="row justify-content-center">
+                    <div class="form-group col-6">
+                        <input type="text" class="form-control">  
+                    </div>    
+                    <div class="form-group col-1">
+                        <button type="button" class="btn btn-secondary"><i class="bi bi-search"></i></button>  
+                    </div>    
                 </div>
-                <div class="form-group col-3">
-                    <label>USUÁRIO:</label>
-                    <input type="text" class="form-control">  
+                <br>
+                <div class="row">
+                    <div class="form-group col-2">
+                        <label>ID:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-4">
+                        <label>NOME:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-3">
+                        <label>USUÁRIO:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-3">
+                        <label>SENHA:</label>
+                        <input type="text" class="form-control">  
+                    </div>
                 </div>
-                <div class="form-group col-3">
-                    <label>SENHA:</label>
-                    <input type="text" class="form-control">  
+                <br>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label>CPF:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-3">
+                        <label>STATUS:</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="">--Selecionar--</option>
+                            <option value="1">Ativo</option>
+                            <option value="2">Inativo</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-3">
+                        <label>CARGO:</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="">--Selecionar--</option>
+                            <option value="1">Secretário</option>
+                            <option value="2">Recepcionista</option>
+                            <option value="3">Dentista</option>
+                            <option value="4">Limpeza e Conservação</option>
+                            <option value="5">Gerente Financeiro</option>
+                            <option value="6">Departamento de Pessoal</option>
+                            <option value="7">Administrador da Clínica Odontológica</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-2">
+                        <label>SALÁRIO:</label>
+                        <input type="text" class="form-control">  
+                    </div>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group col-4">
-                    <label>CPF:</label>
-                    <input type="text" class="form-control">  
+                <br>
+                <div class="row">
+                    <div class="form-group col-3">
+                        <label>RG:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-3">
+                        <label>EXPEDIDOR:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-3">
+                        <label>DATA DE NASCIMENTO:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-3">
+                        <label>CTPS:</label>
+                        <input type="text" class="form-control">  
+                    </div>
                 </div>
-                <div class="form-group col-3">
-                    <label>STATUS:</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="">--Selecionar--</option>
-                        <option value="1">Ativo</option>
-                        <option value="2">Inativo</option>
-                      </select>
+                <br>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label>ESTADO CIVIL:</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="">--Selecionar--</option>
+                            <option value="1">Solteiro</option>
+                            <option value="2">Casado</option>
+                            <option value="3">Separado</option>
+                            <option value="4">Divorciado</option>
+                            <option value="5">Viúvo</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-4">
+                        <label>SEXO:</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="">--Selecionar--</option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Feminino</option>
+                            <option value="3">Prefiro não dizer</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-4">
+                        <label>DATA DE ADMISSÃO:</label>
+                        <input type="text" class="form-control">  
+                    </div>
                 </div>
-                <div class="form-group col-3">
-                    <label>CARGO:</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="">--Selecionar--</option>
-                        <option value="1">Secretário</option>
-                        <option value="2">Recepcionista</option>
-                        <option value="3">Dentista</option>
-                        <option value="4">Limpeza e Conservação</option>
-                        <option value="5">Gerente Financeiro</option>
-                        <option value="6">Departamento de Pessoal</option>
-                        <option value="7">Administrador da Clínica Odontológica</option>
-                      </select>
+                <br>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label>EMAIL:</label>
+                        <input type="email" class="form-control" placeholder="nome@exemplo.com">  
+                    </div>
+                    <div class="form-group col-4">
+                        <label>TELEFONE:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-4">
+                        <label>CNH:</label>
+                        <input type="text" class="form-control">  
+                    </div>
                 </div>
-                <div class="form-group col-2">
-                    <label>SALÁRIO:</label>
-                    <input type="text" class="form-control">  
+                <br>
+                <div class="row">
+                    <div class="form-group col-6">
+                        <label>CEP:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-6">
+                        <label>CIDADE:</label>
+                        <input type="text" class="form-control">  
+                    </div>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group col-3">
-                    <label>RG:</label>
-                    <input type="text" class="form-control">  
+                <br>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label>RUA:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-4">
+                        <label>N°:</label>
+                        <input type="text" class="form-control">  
+                    </div>
+                    <div class="form-group col-4">
+                        <label>BAIRRO:</label>
+                        <input type="text" class="form-control">  
+                    </div>
                 </div>
-                <div class="form-group col-3">
-                    <label>EXPEDIDOR:</label>
-                    <input type="text" class="form-control">  
+                <br>
+                <div class="row">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-light col-1">EXCLUIR <i class="bi bi-trash3"></i></button>
+                        <button type="button" class="btn btn-light col-1">EDITAR <i class="bi bi-pencil-square"></i></button>
+                        <button type="button" class="btn btn-light col-1">NOVO <i class="bi bi-plus-circle"></i></button>
+                        <button type="button" class="btn btn-light col-1">EMITIR <i class="bi bi-printer"></i></button>
+                    </div>
                 </div>
-                <div class="form-group col-3">
-                    <label>DATA DE NASCIMENTO:</label>
-                    <input type="text" class="form-control">  
-                </div>
-                <div class="form-group col-3">
-                    <label>CTPS:</label>
-                    <input type="text" class="form-control">  
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group col-4">
-                    <label>ESTADO CIVIL:</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="">--Selecionar--</option>
-                        <option value="1">Solteiro</option>
-                        <option value="2">Casado</option>
-                        <option value="3">Separado</option>
-                        <option value="4">Divorciado</option>
-                        <option value="5">Viúvo</option>
-                      </select>
-                </div>
-                <div class="form-group col-4">
-                    <label>SEXO:</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="">--Selecionar--</option>
-                        <option value="1">Masculino</option>
-                        <option value="2">Feminino</option>
-                        <option value="3">Prefiro não dizer</option>
-                      </select>
-                </div>
-                <div class="form-group col-4">
-                    <label>DATA DE ADMISSÃO:</label>
-                    <input type="text" class="form-control">  
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group col-4">
-                    <label>EMAIL:</label>
-                    <input type="email" class="form-control" placeholder="nome@exemplo.com">  
-                </div>
-                <div class="form-group col-4">
-                    <label>TELEFONE:</label>
-                    <input type="text" class="form-control">  
-                </div>
-                <div class="form-group col-4">
-                    <label>CNH:</label>
-                    <input type="text" class="form-control">  
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group col-6">
-                    <label>CEP:</label>
-                    <input type="text" class="form-control">  
-                </div>
-                <div class="form-group col-6">
-                    <label>CIDADE:</label>
-                    <input type="text" class="form-control">  
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group col-4">
-                    <label>RUA:</label>
-                    <input type="text" class="form-control">  
-                </div>
-                <div class="form-group col-4">
-                    <label>N°:</label>
-                    <input type="text" class="form-control">  
-                </div>
-                <div class="form-group col-4">
-                    <label>BAIRRO:</label>
-                    <input type="text" class="form-control">  
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="form-group">
-                    <button type="button" class="btn btn-light col-1">EXCLUIR <i class="bi bi-trash3"></i></button>
-                    <button type="button" class="btn btn-light col-1">EDITAR <i class="bi bi-pencil-square"></i></button>
-                    <button type="button" class="btn btn-light col-1">NOVO <i class="bi bi-plus-circle"></i></button>
-                    <button type="button" class="btn btn-light col-1">EMITIR <i class="bi bi-printer"></i></button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
+            
+        </main>   
     </div>
-</main>
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
 </body>
 </html>
