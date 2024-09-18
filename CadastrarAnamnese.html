@@ -21,7 +21,7 @@
       <div class="container">
         <a href="" class="">
           <img src="img/dentesss2.png" class="Logo">
-          <a class="bi bi-box-arrow-right" href="menu.html" style="color: rgb(95, 95, 95); font-size: 30px;"></a>
+          <a class="bi bi-box-arrow-right" href="menu.html" style="color: rgb(51, 49, 49); font-size: 35px; font-weight: bolder; padding-left: 38px;" ></a>
         </a>
       </div>
       <div class="navbar navbar-expand-md">
@@ -167,8 +167,8 @@
               </div>
               <hr> <!--linha preta-->
             </li>
-            <label>DentalTec</label>
-            <p> Versão 3.0</p>
+            <label class="TextoDental">DentalTec</label>
+            <p class="TextoVersao"> Versão 3.0</p>
             <div class="navbar navbar-expand-md"></div>
           </ul>
         </div>
@@ -177,28 +177,28 @@
     <main>
       <br>
       <div class="container">
-        <h1>Cadastrar Anamnese</h1>
+        <h1 class="TituloCadasAnamnese">CADASTRAR ANAMNESE</h1>
         <div class="row">
           <div class="form-group col-3">
-            <label>Paciente</label>
+            <label class="PacienteAnamnese">Paciente</label>
             <select class="form-control">
               <option value="">--Selecionar--</option>
               <option value="1">NATHAN PEREIRA</option>
             </select>
           </div>
           <div class="form-group col-3">
-            <label>Profissional</label>
+            <label class="PacienteAnamnese">PROFISSIONAL</label>
             <select class="form-control">
               <option value="">--Selecionar--</option>
               <option value="1">DR. NATHAN ROCHA</option>
             </select>
           </div>
           <div class="form-group col-3">
-            <label>Data</label>
+            <label class="PacienteAnamnese">DATA</label>
             <input type="text" class="form-control">
           </div>
           <div class="form-group col-3">
-            <label>ID</label>
+            <label class="PacienteAnamnese">ID</label>
             <input type="text" class="form-control">
           </div>
         </div>
@@ -423,10 +423,13 @@
             </div>
 
             <div>
-              <button type="submit" class="btn btn-success">
-                Salvar <i class="bi bi-printer"></i>
+              <button type="submit" class="btn bi bi-floppy">
+                <span>Salvar</span>
               </button>
+             
             </div>
+            
+            
           </div>
         </div>
       </div>

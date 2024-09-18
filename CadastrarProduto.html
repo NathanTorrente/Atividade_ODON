@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CadastrarConsulta</title>
+    <title>CadastrarProduto</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -177,74 +177,70 @@
                 </div>
             </nav>
             <main> <!--Tudo que esta dentro do main é o conteudo principal-->
-                <div class="container"> <!--sm, md, lg, xl, xxl, fluid-->
-                    <h1> Cadastrar Consulta</h1>
-                    <br>
-                    <div class="row">
-                        <div class="form-group col-5">
-                            <label>NOME: </label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group col-2">
-                        </div>
-                        <div class="form-group col-5">
-                            <label> PROFISSIONAL: </label>
-                            <input type="text" class="form-control">
-                        </div>
+              <div class = "container">
+                <h4>CADASTRAR PRODUTO</h4>
+        
+        
+                <div class = "row">
+                    <div class = "form-group col-4 cor" >
+        
+        
+                        <label>PRODUTO</label>
+                        <input type = "text" class = "form-control">
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="form-group col-5">
-                            <label>SERVIÇO: </label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group col-2">
-                        </div>
-                        <div class="form-group col-5">
-                            <label> DESCRIÇÃO: </label>
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                                    style="height: 100px"></textarea>
-                                <label for="floatingTextarea2"></label>
-                            </div>
-                        </div>
-                        <div class="form-group col-2">
-                            <label>DATA: </label>
-                            <input typ e="text" class="form-control">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="form-group col-2">
-                            <label>HORÁRIO: </label>
-                            <input typ e="text" class="form-control">
-                        </div>
-                        <div class="form-group col-5">
-                        </div>
-                        <div class="form-group col-2">
-                            <label> VALOR: </label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group col-3">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="form-group col-7">
-                        </div>
-                        <div class="form-group col-4">
-                            <label> PRODUTOS UTILIZADOS: </label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="form-group">
-                            <button type="button" class="btn btn-light">Salvar <i class="bi bi-floppy"></i></button>
-                            <button type="button" class="btn btn-light">Novo <i class="bi bi-plus"></i></button>
-                        </div>
+        
+        
+                    <div class = "form-group col-4">
+                        <label>CÓDIGO DE BARRA</label>
+                        <input type = "text" class = "form-control">
                     </div>
                 </div>
+                 </br>
+                <div class = "row">
+                    <div class = "form-group col-4">
+                        <label>DATA DE FABRICAÇÃO</label> </br>
+                        <input type = "tex" id = "DataF"  placeholder="00/00/0000"/> <i class="bi bi-calendar-week"></i>
+                    </div>
+        
+        
+                    <div class = "form-group col-4">
+                        <label>DATA DE VALIDADE</label>
+                    </br>
+                        <input type = "tex" id = "DataV"  placeholder="00/00/0000"/> <i class="bi bi-calendar-week"></i>
+                    </div>
+                </div>
+                 </br>
+                <div class = "row">
+                    <div class = "form-group col-4">
+                        <label>ID</label>
+                        <input type = "text" class = "form-control">
+                    </div>
+        
+        
+                    <div class = "form-group col-4">
+                        <label>VALOR</label>
+                        <input type = "text" class = "form-control">
+        
+        
+                    </div>
+        
+        
+                </div>
+            </br>
+                <div class = "row">
+                    <div class = "form-group col-4">
+                        <button>
+                            <i class="bi bi-floppy"></i>  
+                            <p>Salvar</p>
+                        </button>
+                   
+                        <button>
+                             <i class="bi bi-plus-lg"></i>
+                             <p>Novo</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
             </main>
         </div>
     </div>
