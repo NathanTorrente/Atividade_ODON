@@ -1,113 +1,70 @@
-.LoginLogo{
-    width: 1000px;
-    height: 400px;
-    opacity: 50%;
-    margin-bottom: 20%;
-    padding-left: 500px;
-    
-}
-body[class="corinicial"]{
-    background-image: linear-gradient( to top, rgb(168, 168, 168), 40%, rgb(255, 255, 255), rgb(255, 255, 255));
-}
-
-
-#todo{
-    background-color: white;
-    width: 30%;
-    height: 450px;
-    margin: 350px;
-    margin-top: 100px;
-    border-radius: 15px;
-    padding-left: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border: 1px solid #000000; /*borda*/
-     box-shadow: 0 4px 8px rgba(119, 114, 114, 0.74); /*Sombra da borda*/
-}
-
-.grupo{
-    display: flex;
-    width: 200%;
-}
-
-.form{
-    width: 50%;
-}
-
-.form input[type=text]
-{
-    width: 95%;
-    padding-top: 10px;
-}
-
-.grupo input[type=radio]
-{
-    width: auto;
-}
-
-
-#todo input[type=email]
-{
-    width: 95%;
-    padding-top: 10px;
-}
-
-
-#todo input[type=submit]{ /*Tabela*/
-    background-color: rgb(29, 29, 29);
-    color: white;
-    color: white;
-    width: 40%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    margin-left: 100px;
-    border: none;
- 
-}
-
-#todo input[type=submit]:hover{ /*botão Login*/
-    background-color: rgb(0, 0, 0);
-    color: white;
-    width: 40%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    margin-left: 100px;
-    border: none;
-    cursor: pointer;
-
-}
-
-textarea{
-    width: 95%;
-}
-
-@media screen and (max-width: 650px){
-    body{
-        margin: 0px;
-    }
-}
-.input-linha {
-    border: none; /* Remove a borda */
-    border-bottom: 1px solid black; /* Adiciona apenas uma linha inferior */
-    outline: none; /* tira o contorno do foco ao CLICAR no input (quadrado) */
-    width: 100%; 
-    padding: 5px; 
-    font-size: 16px; 
-  }
-  .page {
-    text-align: center;
-}
-  body.corinicial{
-    background-color: aliceblue;
+body[class="corinicial"] {
+    background-image: linear-gradient(to top, rgb(168, 168, 168), 40%, rgb(255, 255, 255), rgb(255, 255, 255));
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    height: 100vh; /* Ocupa a altura total da tela */
     margin: 0;
-  }
-  
-  
+}
+
+.container {
+    display: flex; 
+}
+
+.LoginLogo {
+    padding-top: 80px;
+    width: 700px; 
+    height: 600px; 
+    opacity: 50%;
+    margin-right: -50px; 
+}
+
+#todo {                     /* Retângulo do LOGIN */
+    margin-top: 100px;
+    background-color: white;
+    width: 35%;
+    height: 450px;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 140px;
+    border: 1px solid #000000; /* Borda */
+    box-shadow: 0 4px 8px rgba(119, 114, 114, 0.74); /* Sombra da borda */
+}
+
+.usuario {
+    
+    width: 100%;
+}
+
+.senha {
+    width: 100%;
+}
+
+.input-linha {          /* Linha das caixas de texto */
+    border: none; 
+    border-bottom: 1px solid black; /* add uma linha inferior */
+    outline: none; /* Remove o contorno do foco ao clicar no input */
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+a[class="botaoLogin"] { /* Botão Login */
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+    width: 26%; 
+    padding: 12px ; 
+    margin: 0;
+    border-radius: 20px;
+    padding-left: 28px; 
+    border: none; 
+    cursor: pointer; 
+    display: block; /* Permite que o botão use margin auto */
+    text-decoration: none; /* Remove sublinhado */
+    margin-left: 260px;
+    
+
+}
+
+a[class="botaoLogin"]:hover {
+    background-color: rgb(50, 50, 50); /* Muda cor do botão com o cursor */
+}
+
