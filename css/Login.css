@@ -2,7 +2,7 @@ body[class="corinicial"] {
     background-image: linear-gradient(to top, rgb(168, 168, 168), 40%, rgb(255, 255, 255), rgb(255, 255, 255));
     display: flex;
     justify-content: center;
-    height: 100vh; /* Ocupa a altura total da tela */
+    height: 120vh; /* Ocupa a altura total da tela */
     margin: 0;
 }
 
@@ -31,19 +31,11 @@ body[class="corinicial"] {
     box-shadow: 0 4px 8px rgba(119, 114, 114, 0.74); /* Sombra da borda */
     
 }
-label[class="TextoDentalogo"]{
-    color:rgb(0, 0, 0);
-    margin-top: 20px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    margin-left: 300px;
+h1[class="ConsultaDepesatitulo"]{
+    font-size: 10px;
+    color: aqua;
 }
-p[class="TextoVersaologo"]{
-    color:rgb(145, 142, 142);
-  
-    margin-left: 300px;
-}
+
 
 .usuario {
     
@@ -108,7 +100,7 @@ i[class="bi bi-person-fill"]{ /*User*/
     font-size: 25px;
     
 }
-i[class="bi bi-lock-fill    "]{ /*Cadeado*/
+i[class="bi bi-lock-fill"]{ /*Cadeado*/
     font-size: 25px; 
     position: absolute; /*coloca os icones na mesma linha do input*/
 
