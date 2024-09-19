@@ -6,6 +6,9 @@ body[class="corinicial"]{
 body{
     background-color: #ffffff;
 }
+body[class="corcinza"]{
+    background-color: #7c7c7c;
+}
 .page{
     position: relative;
     display: flex;
@@ -320,4 +323,12 @@ tr[class="cinzaescuro"]{
 
 input[id="idspace"]{
     margin-bottom: 30px;
+}
+.EspaçoTrocaSenha{
+    width: 500px;
+    height: 600px;
+    background-color: #858585;
+    border-radius: 3%;
+    text-align: justify;
+    margin-left: 430px;
 }

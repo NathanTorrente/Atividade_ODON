@@ -13,8 +13,8 @@ body[class="corinicial"] {
 
 .LoginLogo {
     padding-top: 88px;
-    width: 730px; 
-    height: 600px; 
+    width: 750px; 
+    height: 500px; 
     opacity: 30%;
     margin-right: -100px; 
 }
@@ -22,7 +22,7 @@ body[class="corinicial"] {
 #todo {                     /* Retângulo do LOGIN */
     margin-top: 100px;
     background-color: rgb(255, 255, 255);
-    width: 41%;
+    width: 38%;
     height: 520px;
     border-radius: 15px;
     padding: 25px;
@@ -82,10 +82,12 @@ a[class="botaoLogin"] { /* Botão Login */
 a[class="botaoLogin"]:hover {
     background-color: rgb(50, 50, 50); /* Muda cor do botão com o cursor */
 }
-p[class="esqueceusenha"]{
-    padding-left: 200px;
-    margin-top: -38px;
-   
+a[class="esqueceusenha"] {
+    position: relative;
+    padding-left: 190px;
+    text-decoration: none;
+    top: -39px; /*ajusta a altura ao topo*/
+    color:#000000;
 }
 input[class="form-check-input"]{
     margin-top: 11px;
