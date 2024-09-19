@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CadastroFuncionário</title>
+    <title>ConsultarDepesa</title>
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -58,7 +58,7 @@
                             <li><a href="#" class="nav-link align-middle px-0">Emitir Relatório Venda</a></li>
                             <li><a href="CadastroDespesa.html" class="nav-link align-middle px-0">Cadastrar Despesa</a></li>
                             <li><a href="ConsultarDespesas.html" class="nav-link align-middle px-0">Consultar Despesa</a></li>
-                            <li><a href="#" class="nav-link align-middle px-0">Emitir Relatório Depesa</a></li>
+                            <li><a href="EmitirRelatórioFunci.html" class="nav-link align-middle px-0">Emitir Relatório Depesa</a></li>
                           </ul>
                         </div>
                       </li>
@@ -119,7 +119,7 @@
                           <i class="bi bi-chevron-up ms-auto"></i>
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <li><a href="CadastrarProduto.html" class="nav-link align-middle px-0">Cadastrar Produto</a></li>
-                            <li><a href="" class="nav-link align-middle px-0">Consultar Produto</a></li>
+                            <li><a href="#" class="nav-link align-middle px-0">Consultar Produto</a></li>
                             <li><a href="#" class="nav-link align-middle px-0">Emitir Relatório</a></li>
                           </ul>           
                         </div>
@@ -164,127 +164,84 @@
             </div>
         </nav>
         <main> <!--Tudo que esta dentro do main é o conteudo principal-->
-          <div class="tamanho">
-            <br>
             <div class="container">
-              <div class="row">
-                <h2>CADASTRAR ORÇAMENTO</h2>
-                <div class="col-6">
-                  <div>
-                    <img id="odontograma" src="img/odontograma.png">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="row">
-                    <div class="colunaOrçamento">
-                      <div class=" form-group col-12">
-                        <div class="row">
-                          <div class="form-group col-3">
-                            <label class="labelOrçamento">ID</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-8">
-                            <label class="labelOrçamento">NOME</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-6">
-                            <label class="labelOrçamento">DATA NASCIMENTO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-5">
-                            <label class="labelOrçamento">CPF</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-2">
-                            <label class="labelOrçamento">RUA</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-1">
-                            <label class="labelOrçamento">Nº</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-4">
-                            <label class="labelOrçamento">BAIRRO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-4">
-                            <label class="labelOrçamento">CIDADE</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-6">
-                            <label class="labelOrçamento">EMAIL</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-5">
-                            <label class="labelOrçamento">CONTATO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <br></br>
-                          <div class="form-group col-6">
-                            <label class="labelOrçamento">PROFISSIONAL ESPECIALIZADO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-5">
-                            <label class="labelOrçamento">DATA</label>
-                            <input type="text" class="form-select">
-                          </div>
+                <br>
+                <h3>CONSULTAR AGENDA</h3>
+                <hr>
+                <br>
+                <form>
+                    <div class="row">
+                        <div class="form-group col-3">
+                         <h6>NOME </h6>
+                         <select class="form-select">
+                            <option value="">PERTENSON OENNING</option>
+                         </select>
                         </div>
-                      </div>
-                    </div>     
-                  </div>
-                </div>
-              </div>
-            </div> 
-                  <div class="botão">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="row">
-                            <div>
-                              <button><i class="bi bi-clipboard-plus"></i></button>
-                            </div>
-                            <div>
-                              <button><i class="bi bi-save2"></i></button>
-                            </div>
-                          </div>
-                    <div class="col-6">
-                      <table border="1px">
-                        <tr>
-                          <th>SERVIÇO</th>
-                          <th>REGIÃO</th>
-                          <th>VALOR UNIT.</th>
-                        </tr>
-                        <tr>
-                          <td>IMPLANTODONTIA</td>
-                          <td>(32)</td>
-                          <td>R$ 1.500,00</td>
-                        </tr>
-                        <tr>
-                          <td>IMPLANTODONTIA</td>
-                          <td>(38)</td>
-                          <td>R$ 2.000,00</td>
-                        </tr>
-                        <tr>
-                          <td>ENDODONTIA</td>
-                          <td>BOCA</td>
-                          <td>R$ 1.000,00</td>
-                        </tr>  
-                        <tr class="TrOrçamento">
-                              <td class="TotalOrçamento" colspan="2">TOTAL ORÇAMENTO:</td>
-                              <td class="ValorTotal">R$ 4.500,00</td>
-                        </tr>
-                   
-                      </table>
-    
+                        <div class="form-group col-1">
+                            <input type="radio">
+                            <label>NOME</label>  
+                        </div>
+                        <div class="form-group col-1">
+                            <input type="radio">
+                            <label>MÊS</label>  
+                        </div>
+                        <div class="form-group col-1">
+                            <input type="radio">
+                            <label>DATA</label>  
+                        </div>
+                        <div class="form-group col-2">
+                            <input type="radio">
+                            <label>HORÁRIO</label>  
+                        </div>
                     </div>
-                  </div>
-                 
-                </div>
-              </div>
+                    <br>
+                    <div class="row">
+                        <div class="form-group col-3">
+                         <h6>MÊS </h6>
+                         <select class="form-select">
+                            <option value="">--Selecionar--</option>
+                            <option value="1">Janeiro</option>
+                            <option value="2">Fevereiro</option>
+                            <option value="3">Março</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Maio</option>
+                            <option value="6">Junho</option>
+                            <option value="7">Julho</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                          </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="form-group col-2">
+                         <h6>DATA </h6>
+                         <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="form-group col-1">
+                         <h6>HORÁRIO </h6>
+                         <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="form-group">
+                           <button type="button" class="btn btn-light col-1">EXCLUIR <i class="bi bi-trash3"></i></button>
+                           <button type="button" class="btn btn-light col-1">EDITAR <i class="bi bi-pencil-square"></i></button>
+                           <button type="button" class="btn btn-light col-1">NOVO <i class="bi bi-plus-circle"></i></button>
+                           <button type="button" class="btn btn-light col-1">BUSCAR <i class="bi bi-search"></i></button>
+                           <button type="button" class="btn btn-light col-1">EMITIR <i class="bi bi-printer"></i></button>
+                        </div>
+                    </div>
+                </form>
             </div>
-          </div>
-    
-        
+            
         </main>   
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

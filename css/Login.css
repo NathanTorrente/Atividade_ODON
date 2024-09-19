@@ -16,14 +16,14 @@ body[class="corinicial"] {
     width: 755px; 
     height: 600px; 
     opacity: 30%;
-    margin-right: -50px; 
+    margin-right: -100px; 
 }
 
 #todo {                     /* Retângulo do LOGIN */
     margin-top: 100px;
     background-color: rgb(255, 255, 255);
     width: 35%;
-    height: 450px;
+    height: 520px;
     border-radius: 15px;
     padding: 25px;
     margin-left: 100px;
@@ -63,10 +63,10 @@ a[class="botaoLogin"] { /* Botão Login */
     background-color: rgb(119, 127, 146); 
     color: white; 
     width: 26%; 
-    padding: 12px ; 
-    margin: 0;
+    padding: 10px ; 
+
     border-radius: 20px;
-    padding-left: 28px; 
+    padding-left: 20px; 
     border: none; 
     cursor: pointer; 
     display: block; /* Permite que o botão use margin auto */
@@ -75,6 +75,7 @@ a[class="botaoLogin"] { /* Botão Login */
     color: black;
     font-weight: bolder;
     letter-spacing: 1px;
+    
     
 
 }
@@ -111,8 +112,10 @@ p[class="textologinlogin"]{
     font-size: 30px;
 }
 button[class="btn btn-success"]{
-    margin-left: 265px;
-    
+    margin-left: auto;
+    padding-left: 20px;
+    margin-left: 180px;
+    border-radius: 13px;
 }
 h1[class="textosempreenchimento"]{
     color: transparent; /* Torna o preenchimento transparente */

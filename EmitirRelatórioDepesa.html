@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CadastroFuncionário</title>
+    <title>EmitirRelatórioDepesas</title>
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -119,7 +119,7 @@
                           <i class="bi bi-chevron-up ms-auto"></i>
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <li><a href="CadastrarProduto.html" class="nav-link align-middle px-0">Cadastrar Produto</a></li>
-                            <li><a href="" class="nav-link align-middle px-0">Consultar Produto</a></li>
+                            <li><a href="ConsultarProduto.html" class="nav-link align-middle px-0">Consultar Produto</a></li>
                             <li><a href="#" class="nav-link align-middle px-0">Emitir Relatório</a></li>
                           </ul>           
                         </div>
@@ -164,127 +164,96 @@
             </div>
         </nav>
         <main> <!--Tudo que esta dentro do main é o conteudo principal-->
-          <div class="tamanho">
-            <br>
             <div class="container">
-              <div class="row">
-                <h2>CADASTRAR ORÇAMENTO</h2>
-                <div class="col-6">
-                  <div>
-                    <img id="odontograma" src="img/odontograma.png">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="row">
-                    <div class="colunaOrçamento">
-                      <div class=" form-group col-12">
-                        <div class="row">
-                          <div class="form-group col-3">
-                            <label class="labelOrçamento">ID</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-8">
-                            <label class="labelOrçamento">NOME</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-6">
-                            <label class="labelOrçamento">DATA NASCIMENTO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-5">
-                            <label class="labelOrçamento">CPF</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-2">
-                            <label class="labelOrçamento">RUA</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-1">
-                            <label class="labelOrçamento">Nº</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-4">
-                            <label class="labelOrçamento">BAIRRO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-4">
-                            <label class="labelOrçamento">CIDADE</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-6">
-                            <label class="labelOrçamento">EMAIL</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-5">
-                            <label class="labelOrçamento">CONTATO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <br></br>
-                          <div class="form-group col-6">
-                            <label class="labelOrçamento">PROFISSIONAL ESPECIALIZADO</label>
-                            <input type="text" class="form-select">
-                          </div>
-                          <div class="form-group col-5">
-                            <label class="labelOrçamento">DATA</label>
-                            <input type="text" class="form-select">
-                          </div>
+                <br>
+                <h1>RELATÓRIO DE DESPESAS</h1>
+                <hr>
+                <br>
+                <form>
+                    <div class="row align-items-end "> <!-- O'align-items-end' alinha todos os itens no final da linha (para não deixar um mais em cima e outro mais em baixo)-->
+                        <div class="form-group col-3">
+                            <h6>PROFISSIONAL</h6>
+                            <select class="form-select">
+                                <option value="">DR. MÁRCIO</option>
+                            </select>
                         </div>
-                      </div>
-                    </div>     
-                  </div>
-                </div>
-              </div>
-            </div> 
-                  <div class="botão">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="row">
-                            <div>
-                              <button><i class="bi bi-clipboard-plus"></i></button>
-                            </div>
-                            <div>
-                              <button><i class="bi bi-save2"></i></button>
-                            </div>
-                          </div>
-                    <div class="col-6">
-                      <table border="1px">
-                        <tr>
-                          <th>SERVIÇO</th>
-                          <th>REGIÃO</th>
-                          <th>VALOR UNIT.</th>
-                        </tr>
-                        <tr>
-                          <td>IMPLANTODONTIA</td>
-                          <td>(32)</td>
-                          <td>R$ 1.500,00</td>
-                        </tr>
-                        <tr>
-                          <td>IMPLANTODONTIA</td>
-                          <td>(38)</td>
-                          <td>R$ 2.000,00</td>
-                        </tr>
-                        <tr>
-                          <td>ENDODONTIA</td>
-                          <td>BOCA</td>
-                          <td>R$ 1.000,00</td>
-                        </tr>  
-                        <tr class="TrOrçamento">
-                              <td class="TotalOrçamento" colspan="2">TOTAL ORÇAMENTO:</td>
-                              <td class="ValorTotal">R$ 4.500,00</td>
-                        </tr>
-                   
-                      </table>
-    
+                        <div class="form-group col-2">
+                            <h6>PERÍODO</h6>
+                            <input type="text" class="form-control" placeholder="Data início">
+                        </div>
+                        <div class="form-group col-1 text-center">
+                            <h6>À</h6>
+                        </div>
+                        <div class="form-group col-2">
+                            <input type="text" class="form-control" placeholder="Data fim">
+                        </div>
                     </div>
-                  </div>
-                 
-                </div>
-              </div>
+                    <br>
+                    <div class="row">
+                        <div class="form-group col-3">
+                         <h6>DESCRIÇÃO</h6>
+                         <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-light col-1">EMITIR <i class="bi bi-printer"></i></button>
+                    
+                </form>
+                <div class="container mt-5">
+                    <div class="row justify-content-center">
+                        <div class="form-group col-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>NOME</th>
+                                        <th>CPF</th>
+                                        <th>CARGO</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-active">
+                                        <td>03</td>
+                                        <td>PETERSON OENNING</td>
+                                        <td>154.852.987-01</td>
+                                        <td>SECRETÁRIO</td>
+                                        <td><input type="checkbox"/></td> 
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td><input type="checkbox"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td><input type="checkbox"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td><input type="checkbox"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td><input type="checkbox"/></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
             </div>
-          </div>
-    
-        
+            
         </main>   
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
