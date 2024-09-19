@@ -98,6 +98,8 @@ h2[class="tituloCadasOrçamento"]{   /*titulo Cadastro Orçamento*/
 i[class="bi bi-envelope-fill"]{
     padding-right: 14px;
 }
+
+
 label{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -172,6 +174,7 @@ hr{
 .container{
   
     color:rgb(0, 0, 0);
+    
 }
 main{
     width: 70%;
@@ -237,7 +240,7 @@ table{
 table[class="table table-hover"]{
     
     margin-top: -250px; /* Reduz o espaçamento acima da tabela */
-   
+    
 }
 tr[class="TrOrçamento"]{
     background-color: #cccccc;
@@ -265,5 +268,56 @@ tr[class="CabeçadaTabela"]{
     background-color: transparent;
    
 }
+#btn-salvarP{
+    margin: 0;
+    font-size: 50px;
+    padding-left: 360px;
+    padding-top: 18px;
+}
+#btn-novoP{
+    opacity: 60%;         
+    display: flex;
+    flex-direction: column;  /* Ícone acima do texto */
+    align-items: center;    
+    width: 101px;            /* Largura do botão */
+    border: none;   
+    padding-bottom: 10px;           /* Preenchimento interno */
+    margin: 0;
+    font-size: 70px;
+    background-color: transparent;
+    position: absolute;
+    padding-left: 500px;
+}
+input[class=form-control]{
+    background-color: #959599;
+    color: #ffffff;
+}
+input[class=form-select]{
+    background-color: #959599;
+    color: #ffffff;
+}
+table[class="table table-hovers"]{
+    margin: 0;
 
+}
 
+tr[class="titulotabelaprodutoconsul"]{
+    background-color: #e0e0e0;
+    border: white solid 5px;
+}
+p[class="pretotexto"]
+{
+    color:black;
+    font-weight: bolder;
+    
+}
+tr[class="cinza"]{
+    background-color: #cacaca;
+}
+tr[class="cinzaescuro"]{
+    background-color: #9f9fa3;
+}
+
+input[id="idspace"]{
+    margin-bottom: 30px;
+}

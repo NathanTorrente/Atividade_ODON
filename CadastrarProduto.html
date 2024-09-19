@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
 </head>
 
 <body>
@@ -177,14 +178,12 @@
                 </div>
             </nav>
             <main> <!--Tudo que esta dentro do main é o conteudo principal-->
-              <div class = "container">
+              <div class ="container">
                 <h4>CADASTRAR PRODUTO</h4>
         
         
                 <div class = "row">
-                    <div class = "form-group col-4 cor" >
-        
-        
+                    <div class = "form-group col-4" >
                         <label>PRODUTO</label>
                         <input type = "text" class = "form-control">
                     </div>
@@ -229,15 +228,13 @@
             </br>
                 <div class = "row">
                     <div class = "form-group col-4">
-                        <button>
-                            <i class="bi bi-floppy"></i>  
-                            <p>Salvar</p>
-                        </button>
-                   
-                        <button>
-                             <i class="bi bi-plus-lg"></i>
-                             <p>Novo</p>
-                        </button>
+                        <div>
+                            <button type="submit" id="btn-novoP" class="bi bi-plus-lg"><span>NOVO</span></button>
+                          </div>
+                          <div>
+                            <button type="submit" id="btn-salvarP" class="btn bi bi-floppy"><span>SALVAR</span></button>
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
