@@ -86,6 +86,14 @@ font-size: 32px;
 display: flex;
 
 }
+h2[class="tituloCadasOrçamento"]{   /*titulo Cadastro Orçamento*/
+    color: rgb(119, 119, 119);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
 
 i[class="bi bi-envelope-fill"]{
     padding-right: 14px;
@@ -182,7 +190,7 @@ main{
 span{
    font-size: 30px;
 }
-button[type="submit"].btn {
+button[type="submit"].btn {  /*BOTÃO SALVAR ANAMNESE*/
     margin-top: 100px;
     opacity: 60%;
     display: flex;
@@ -191,7 +199,7 @@ button[type="submit"].btn {
     width: 101px;                   
     justify-content: center; 
     font-size: 4rem;          /* Muda o tamanho da fonte, onde aumenta a imagem que esta dentro */
-   margin-left: 250px;
+    margin-left: 250px;
   }
 h1[class="TituloCadasAnamnese"]{
     margin: 0;
@@ -214,3 +222,48 @@ h1[class="ConsultaDepesatitulo"]{
     margin: 0px;
     margin-bottom: 6px;
 }
+#odontograma{
+    width: 420px;
+    height: 250px;
+}
+table{
+    width: 650px;
+    height: 100px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    border: none;
+    
+}
+table[class="table table-hover"]{
+    
+    margin-top: -250px; /* Reduz o espaçamento acima da tabela */
+   
+}
+tr[class="TrOrçamento"]{
+    background-color: #cccccc;
+   
+}
+tr[class="CabeçadaTabela"]{
+    background-color: #cccccc;
+}
+#btn-salvar {       /*Botão Salvar com base Botão de anamnese pelo id*/
+ 
+  margin: 0;
+  font-size: 50px;
+}
+
+#btn-novo {     /*Botão Novo Orçamento*/
+    opacity: 60%;         
+    display: flex;
+    flex-direction: column;  /* Ícone acima do texto */
+    align-items: center;    
+    width: 101px;            /* Largura do botão */
+    border: none;   
+    padding-bottom: 10px;           /* Preenchimento interno */
+    margin: 0;
+    font-size: 70px;
+    background-color: transparent;
+   
+}
+
+

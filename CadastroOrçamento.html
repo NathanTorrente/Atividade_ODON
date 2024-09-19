@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CadastroFuncionário</title>
-    <link rel="stylesheet" href="CSS/bootstrap.css">
-    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
@@ -168,7 +168,7 @@
             <br>
             <div class="container">
               <div class="row">
-                <h2>CADASTRAR ORÇAMENTO</h2>
+                <h2 class="tituloCadasOrçamento">CADASTRAR ORÇAMENTO</h2>
                 <div class="col-6">
                   <div>
                     <img id="odontograma" src="img/odontograma.png">
@@ -241,40 +241,57 @@
                         <div class="col-6">
                           <div class="row">
                             <div>
-                              <button><i class="bi bi-clipboard-plus"></i></button>
+                              <button type="submit" id="btn-novo" class="bi bi-plus-lg"><span>NOVO</span></button>
                             </div>
                             <div>
-                              <button><i class="bi bi-save2"></i></button>
+                              <button type="submit" id="btn-salvar" class="btn bi bi-floppy"><span>SALVAR</span></button>
                             </div>
                           </div>
-                    <div class="col-6">
-                      <table border="1px">
-                        <tr>
-                          <th>SERVIÇO</th>
-                          <th>REGIÃO</th>
-                          <th>VALOR UNIT.</th>
-                        </tr>
-                        <tr>
-                          <td>IMPLANTODONTIA</td>
-                          <td>(32)</td>
-                          <td>R$ 1.500,00</td>
-                        </tr>
-                        <tr>
-                          <td>IMPLANTODONTIA</td>
-                          <td>(38)</td>
-                          <td>R$ 2.000,00</td>
-                        </tr>
-                        <tr>
-                          <td>ENDODONTIA</td>
-                          <td>BOCA</td>
-                          <td>R$ 1.000,00</td>
-                        </tr>  
-                        <tr class="TrOrçamento">
-                              <td class="TotalOrçamento" colspan="2">TOTAL ORÇAMENTO:</td>
-                              <td class="ValorTotal">R$ 4.500,00</td>
-                        </tr>
-                   
-                      </table>
+                   <div class="container mt-5">
+                        <div class="row justify-content-center">
+                            <div class="form-group col-10">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="CabeçadaTabela">
+                                            <th>Serviço</th>
+                                            <th>Região</th>
+                                            <th class="ValorUnitário">ValorUnitário </th>                             
+                                            <th></th>
+                                            <th></th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table-active">
+                                            <td><i class="bi bi-trash3-fill" ></i></td>
+                                            <td>IMPLANTODONTIA</td>
+                                            <td>(32)</td>
+                                            <td>R$ 1.500,00</td>
+                                            <td><i class="bi bi-plus-lg"></i></td> 
+                                        </tr>
+                                        <tr>
+                                           <td><i class="bi bi-trash3-fill" ></i></td>
+                                            <td>IMPLANTODONTIA</td>
+                                            <td>(38)</td>
+                                            <td>R$ 2.000,00</td>
+                                            <td><i class="bi bi-plus-lg"></i></td> 
+                                        </tr>
+                                        <tr>
+                                          <td><i class="bi bi-trash3-fill"></i></td>
+                                           <td>IMPLANTODONTIA</td>
+                                           <td>BOCA</td>
+                                           <td>R$ 1.000,00</td>
+                                           <td><i class="bi bi-plus-lg"></i></td> 
+                                       </tr>
+        
+                                    </tbody>
+                                    <tr class="TrOrçamento">
+                                      <td class="TotalOrçamento" colspan="2">TOTAL ORÇAMENTO:</td>
+                                      <td class="ValorTotal" colspan="4">R$ 4.500,00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
     
                     </div>
                   </div>

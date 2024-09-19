@@ -13,7 +13,7 @@ body[class="corinicial"] {
 
 .LoginLogo {
     padding-top: 76px;
-    width: 755px; 
+    width: 700px; 
     height: 600px; 
     opacity: 30%;
     margin-right: -100px; 
@@ -22,7 +22,7 @@ body[class="corinicial"] {
 #todo {                     /* Retângulo do LOGIN */
     margin-top: 100px;
     background-color: rgb(255, 255, 255);
-    width: 35%;
+    width: 41%;
     height: 520px;
     border-radius: 15px;
     padding: 25px;
@@ -64,7 +64,6 @@ a[class="botaoLogin"] { /* Botão Login */
     color: white; 
     width: 26%; 
     padding: 10px ; 
-
     border-radius: 20px;
     padding-left: 20px; 
     border: none; 
