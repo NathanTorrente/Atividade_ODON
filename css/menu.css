@@ -2,7 +2,10 @@
 
 body[class="corinicial"]{
     background-image: linear-gradient( to top, rgb(168, 168, 168), 40%, rgb(255, 255, 255), rgb(255, 255, 255));
+    overflow: hidden;
+
 }
+
 body{
     background-color: #ffffff;
 }
@@ -13,24 +16,14 @@ body[class="corcinza"]{
     position: relative;
     display: flex;
     flex-direction: column;
-    
 }
-
 .page2{
     position: relative;
     display: flex;
 }
-.slidebar{
-     background-color: #282A35;
-     display: flex;
-     padding: 10px;
-    overflow-x: auto; /* Adiciona a barra de rolagem vertical quando necessário */
-    max-height: 100vh; /* Define a altura máxima da barra lateral para a altura da tela */
-    overflow-x: hidden; /*Remove barra horizontal*/
-    
-}
+
 .nav-link{
-    margin-top: -20px;
+    margin-top: 0px;
 }
 img{
     height: 100px;
@@ -44,7 +37,7 @@ img{
     }
     .slidebar{
         min-height: 100vh; /* min-height é a minima altura para ele expandir para não bugar a cor ao abrir opções*/
-        width: 300px;
+        width: 260px;
         position: sticky;
         top: 0;
         display: block;
@@ -82,6 +75,8 @@ a:hover{
     height: 80px;
     width: 150px;
     padding-left: 20px;
+ 
+
 }
 h1{
 margin-left: 200px;
@@ -130,10 +125,13 @@ label[class="form-check-input"]{
 }
 label[class="TextoDental"]{
     color:white;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 15px;
 }
 p[class="TextoVersao"]{
     color:white;
+    margin-bottom: 12px;
+    font-size: 13px;
 }
 
 P{
@@ -146,7 +144,7 @@ hr{
     margin: 0;
     width: 100%;
 }
-.money{
+.figura{
     width: 30px;
     height: 30px;
      margin: 5px;
@@ -182,15 +180,11 @@ hr{
 main{
     width: 70%;
     max-width: 1500px;
-    height: 800px;
+    height: 200px;
     margin: 20px auto;
     padding: 20px;
     box-sizing: border-box;
-    overflow-y: auto; /* Ativa a barra de rolagem vertical */
-    
-                                /*background-color: #fff;
-                                border: 1px solid #ddd;
-                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+   
     
 }
 span{
